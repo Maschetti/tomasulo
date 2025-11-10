@@ -13,7 +13,7 @@ Suporta: `ADD`, `SUB`, `MUL`, `DIV`, `LD` (load), `ST` (store) e `NOP`.
 
 ```bash
 # compilar
-gcc -O2 -Wall -o tomasulo main.c
+gcc -o tomasulo tomasulo.c
 
 # o programa lê instruções de "instructions.txt"
 ./tomasulo
