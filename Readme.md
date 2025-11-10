@@ -1,4 +1,12 @@
-# README — Simulador simples de *Tomasulo* em C
+# Projeto: Simulador de Tomasulo (C)
+
+**Participantes**
+
+* Mateus Viana Maschietto
+* Lucas Camarino
+* Joao Avila
+* Joao Gabriel Dias
+
 
 ## 1) O que é
 
