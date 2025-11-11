@@ -45,7 +45,7 @@ Comentários iniciados por `#` e linhas em branco são ignorados.
 
 ---
 
-## 4) Parâmetros principais (fáceis de alterar no código)
+## 4) Parâmetros principais
 
 * Tamanhos:
 
@@ -61,7 +61,7 @@ Comentários iniciados por `#` e linhas em branco são ignorados.
 
 ---
 
-## 5) Estados e estruturas (visão rápida)
+## 5) Estados e estruturas
 
 * **Instruction**: opcode, registradores, *immediate* e linha original.
 * **ReservationStation**: *busy*, opcode, `Vj/Vk` (valores), `Qj/Qk` (tags pendentes), `dest`, `remaining` (ciclos restantes), `result`, `address`, `isStore`, `name` (“A1”, “M2”, …).
@@ -110,7 +110,7 @@ A cada `step()` (um ciclo):
 
 ---
 
-## 7) Estados iniciais (boot da simulação)
+## 7) Estados iniciais
 
 * `R0..R31` começam com **valor `i*10`** e `Qi = 0`.
 * Memória `memv[0..1023] = 1000 + índice`.
@@ -148,7 +148,7 @@ Dica: observe `Qj/Qk` indo a `0` quando um resultado com a **mesma tag** é publ
 
 ---
 
-## 10) Limitações (intencionais p/ didática)
+## 10) Limitações
 
 * **Um único CDB** (no máx. 1 *write-back* por ciclo).
 * Endereço de `LD/ST` **não sofre dependência** do registrador base (é resolvido no *issue* para simplificar).
