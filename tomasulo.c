@@ -51,7 +51,7 @@ int memv[MAX_MEM];
 int cycle = 0;
 int pc = 0;
 
-/* Latências padrão (pode ajustar se quiser) */
+/* Ciclos por instrução */
 int LAT_ADD = 2;
 int LAT_MUL = 10;
 int LAT_LD  = 2;
@@ -418,3 +418,4 @@ int main() {
     printf("\nExecução concluída em %d ciclos.\n", cycle);
     return 0;
 }
+
